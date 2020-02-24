@@ -6,7 +6,7 @@ An implementation of the bubble sort algorithm in Ruby
 
 ## Live Demo
 
-[Live Demo Link](https://repl.it/@OscarMier/bubblesort )
+[![Run on Repl.it](https://repl.it/badge/github/voscarmv/bubble_sort)](https://repl.it/github/voscarmv/bubble_sort)
 
 ## Usage
 
