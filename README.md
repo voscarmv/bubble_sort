@@ -8,6 +8,8 @@ An implementation of the bubble sort algorithm in Ruby
 
 [Live Demo Link](https://repl.it/@OscarMier/bubblesort )
 
+## Usage
+
 ``` 
 bubble_sort([3, 5, 1, 14, 4, 19, 3, 2, 1, 0, 99])
 => [0, 1, 1, 2, 3, 3, 4, 5, 14, 19, 99]
