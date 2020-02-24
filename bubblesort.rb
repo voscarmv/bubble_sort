@@ -1,14 +1,21 @@
-array = [3,5,1,14,4]
-swap = true
-while swap == true
-  i = 0
-  until i == (array.length-1)
-    if array[i] > array [i + 1]
-      array[i], array[i + 1] = array[i + 1], array[i]
-    else
-      swap = false
+array = [3,5,1,14,4,19,3,2,1,0,99]
+
+def bubble_sort(arr)
+  array = arr
+  sorted = false
+  while sorted == false
+    i = 0
+    sorted = true
+    until i == (array.length-1)
+      if array[i] > array [i + 1]
+        array[i], array[i + 1] = array[i + 1], array[i]
+        sorted = false
+      end
+      i += 1
     end
-    i += 1
   end
+  return array
 end
-puts array
+
+# puts array.join(", ")
+bubble_sort([5, 4, 3, 2, 1])
