@@ -1,1 +1,1 @@
-irb bubblesort.sh
+irb bubblesort.rb
